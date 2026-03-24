@@ -1,0 +1,16 @@
+{
+  "name": "expense-tracker-ocr",
+  "version": "1.0.0",
+  "description": "Receipt OCR processor for Expense Tracker",
+  "main": "api/receipt-ocr.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
