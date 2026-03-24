@@ -5,8 +5,5 @@
     "api/**/*.js": {
       "runtime": "nodejs18.x"
     }
-  },
-  "env": [
-    "CLAUDE_API_KEY"
-  ]
+  }
 }
